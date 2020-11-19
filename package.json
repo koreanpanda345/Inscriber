@@ -1,5 +1,5 @@
 {
-  "name": "inscriber",
+  "name": "@koreanpanda/inscriber",
   "version": "1.0.0",
   "description": "A Logger that can write logs, and print them, with full customization.",
   "main": "index.js",
