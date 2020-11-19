@@ -1,0 +1,13 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|INFO LOG FILE OF 2020-11-15T17:54:44-08:00|------------------------------------------------
+                                          -------------------------------------------
+(November 15th 2020, 5:54:44 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]: This is a info log.
+(November 15th 2020, 5:54:44 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]: [object Object]
+(November 15th 2020, 11:35:21 pm)	[C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]	This is a info log.
+(November 15th 2020, 11:35:21 pm)	[C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]	[object Object]
+(November 15th 2020, 11:37:24 pm)	[INFO]	This is a info log.
+(November 15th 2020, 11:37:24 pm)	[INFO]	[object Object]

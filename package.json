@@ -1,0 +1,49 @@
+{
+  "name": "inscriber",
+  "version": "1.0.0",
+  "description": "A Logger that can write logs, and print them, with full customization.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run format",
+    "test": "jest --config jestconfig.json --coverage",
+    "build": "npx tsc",
+    "format": "npx prettier --write \"src/**/*.ts\" \"lib/**/*.js\" \"test/**/*.ts\"",
+    "lint": "npx tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "logger",
+    "log-system",
+    "customizable-console"
+  ],
+  "author": "Cody Spratford",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "moment": "^2.29.1"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.4",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koreanpanda345/Inscriber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koreanpanda345/Inscriber/issues"
+  },
+  "homepage": "https://github.com/koreanpanda345/Inscriber#readme"
+}

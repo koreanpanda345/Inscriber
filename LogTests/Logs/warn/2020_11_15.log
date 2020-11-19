@@ -1,0 +1,25 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|WARN LOG FILE OF 2020-11-15T17:27:20-08:00|------------------------------------------------
+                                          -------------------------------------------
+(November 15th 2020, 5:27:20 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:30:33 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:31:33 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:39:58 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:41:20 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:42:05 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:46:17 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3/C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:47:20 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:54:25 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:54:44 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 5:54:44 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]: This is a warn log.
+(November 15th 2020, 5:54:44 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]: [object Object]
+(November 15th 2020, 11:35:21 pm)	[C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]	This is a warn log.
+(November 15th 2020, 11:35:21 pm)	[C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js]	[object Object]
+(November 15th 2020, 11:35:21 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 11:37:24 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 15th 2020, 11:37:24 pm)	[WARN]	This is a warn log.
+(November 15th 2020, 11:37:24 pm)	[WARN]	[object Object]
