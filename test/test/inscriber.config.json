@@ -3,10 +3,10 @@
   "write-logs": true,
   "one-file": false,
   "log-paths": {
-    "error": "./Logs/error",
-    "info": "./Logs/info",
-    "debug": "./Logs/debug",
-    "warn": "./Logs/warn"
+    "error": "./LogTests/Logs/error",
+    "info": "./LogTests/Logs/info",
+    "debug": "./LogTests/Logs/debug",
+    "warn": "./LogTests/Logs/warn"
   },
   "log-patterns": {
     "error": "(<time>)\t[<type>]\t<message>",
