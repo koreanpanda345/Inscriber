@@ -19,3 +19,7 @@
 (November 26th 2020, 1:53:07 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
 (November 26 2020, 1:53:07 pm)	[DEBUG]	This is a debug log.
 (November 26 2020, 1:53:07 pm)	[DEBUG]	[object Object]
+(November 26th 2020, 1:57:20 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 26 2020, 1:57:20 pm)	[DEBUG]	Testing
+(November 26 2020, 1:57:20 pm)	[DEBUG]	This is a debug log.
+(November 26 2020, 1:57:20 pm)	[DEBUG]	[object Object]

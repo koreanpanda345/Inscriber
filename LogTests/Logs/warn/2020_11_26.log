@@ -3,8 +3,10 @@
                                               _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
                                              /___/_//_/___/\__/_/ /_/_.__/\__/_/   
                                           -------------------------------------------
------------------------------------------|PANDA LOG FILE OF 2020-11-26T13:53:07-08:00|------------------------------------------------
+-----------------------------------------|PANDA LOG FILE OF 2020-11-26T13:57:20-08:00|------------------------------------------------
                                           -------------------------------------------
-November 26 2020, 1:53:07 pm	[PANDA]	'nom'	Bamboo is good.
-(November 26 2020, 1:53:07 pm)	[WARN]	This is a warn log.
-(November 26 2020, 1:53:07 pm)	[WARN]	[object Object]
+November 26 2020, 1:57:20 pm	[PANDA]	'nom'	Bamboo is good.
+(November 26th 2020, 1:57:20 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 26 2020, 1:57:20 pm)	[WARN]	This should write these logs to one file.
+(November 26 2020, 1:57:20 pm)	[WARN]	This is a warn log.
+(November 26 2020, 1:57:20 pm)	[WARN]	[object Object]

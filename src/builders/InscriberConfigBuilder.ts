@@ -175,7 +175,7 @@ export class InscriberConfigBuilder {
     }
 
     addCustomLog(logConfig: CustomLogConfig): InscriberConfigBuilder {
-        this.config["custom-logs"].push(logConfig);
+        this.config["custom-logs"].push({name: logConfig.name, aliases: logConfig.aliases, path: logConfig.path, color: logConfig.color, pattern: logConfig.pattern});
         return this;
     }
 
