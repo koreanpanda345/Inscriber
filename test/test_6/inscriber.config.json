@@ -3,10 +3,10 @@
   "write-logs": true,
   "one-file": false,
   "log-paths": {
-    "error": "./Logs/error",
-    "info": "./Logs/info",
-    "debug": "./Logs/debug",
-    "warn": "./Logs/warn"
+    "error": "./LogTests/Logs/error",
+    "info": "./LogTests/Logs/info",
+    "debug": "./LogTests/Logs/debug",
+    "warn": "./LogTests/Logs/warn"
   },
   "log-patterns": {
     "error": "(<time>)\t[<type>]\t<message>",
@@ -32,6 +32,27 @@
       "background": "yellow"
     }
   },
-  "custom-logs": [],
+  "custom-logs": [
+    {
+      "name": "jeff",
+      "aliases": [],
+      "path": "./LogTests/Logs/custom/jeff",
+      "color": {
+        "text": "red",
+        "background": "white"
+      },
+      "pattern": "<time>\t[<type>]\t<message>"
+    },
+    {
+      "name": "panda",
+      "aliases": [],
+      "path": "./LogTests/Logs/custom/panda",
+      "color": {
+        "text": "black",
+        "background": "white"
+      },
+      "pattern": "<time>\t[<type>]\t'nom'\t<message>"
+    }
+  ],
   "time-pattern": "MMMM DD YYYY, h:mm:ss a"
 }

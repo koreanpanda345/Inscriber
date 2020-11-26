@@ -1,0 +1,100 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|ERROR LOG FILE OF 2020-11-26T13:47:13-08:00|------------------------------------------------
+                                          -------------------------------------------
+(November 26 2020, 1:47:13 pm)	[ERROR]	Error
+This is a Error log.
+Error: This is a Error log.
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:18:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:47:13 pm)	[ERROR]	[object Object]
+(November 26 2020, 1:47:13 pm)	[ERROR]	TypeError
+This is a Type Error
+TypeError: This is a Type Error
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:21:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:47:13 pm)	[ERROR]	SyntaxError
+This is a Syntax Error
+SyntaxError: This is a Syntax Error
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:22:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:47:13 pm)	[ERROR]	testing
+(November 26 2020, 1:47:13 pm)	[ERROR]	EvalError
+This is a Eval Error
+EvalError: This is a Eval Error
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:23:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:47:13 pm)	[ERROR]	This is a error.
+(November 26 2020, 1:47:17 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_4\inscriber.test.ts] : Should automatically make the logs.
+(November 26th 2020, 1:47:17 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/error/**.log'
+(November 26 2020, 1:48:04 pm)	[ERROR]	testing
+(November 26 2020, 1:48:04 pm)	[ERROR]	Error
+This is a Error log.
+Error: This is a Error log.
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:18:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:48:04 pm)	[ERROR]	[object Object]
+(November 26 2020, 1:48:04 pm)	[ERROR]	TypeError
+This is a Type Error
+TypeError: This is a Type Error
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:21:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:48:04 pm)	[ERROR]	SyntaxError
+This is a Syntax Error
+SyntaxError: This is a Syntax Error
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:22:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:48:04 pm)	[ERROR]	EvalError
+This is a Eval Error
+EvalError: This is a Eval Error
+    at Object.<anonymous> (C:\Users\korea\repos\JS\Inscriber\test\test\index.test.js:23:18)
+    at Object.asyncJestTest (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\korea\repos\JS\Inscriber\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(November 26 2020, 1:48:04 pm)	[ERROR]	This is a error.
+(November 26 2020, 1:48:04 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_4\inscriber.test.ts] : Should automatically make the logs.
+(November 26th 2020, 1:48:04 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/error/**.log'
+(November 26 2020, 1:49:02 pm)	[ERROR]	testing
+(November 26th 2020, 1:49:02 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/error/**.log'
+(November 26 2020, 1:49:02 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_4\inscriber.test.ts] : Should automatically make the logs.

@@ -1,0 +1,17 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|DEBUG LOG FILE OF 2020-11-26T13:47:13-08:00|------------------------------------------------
+                                          -------------------------------------------
+(November 26 2020, 1:47:13 pm)	[DEBUG]	Testing
+(November 26 2020, 1:47:13 pm)	[DEBUG]	This is a debug log.
+(November 26 2020, 1:47:13 pm)	[DEBUG]	[object Object]
+(November 26th 2020, 1:47:18 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 26 2020, 1:48:04 pm)	[DEBUG]	Testing
+(November 26 2020, 1:48:04 pm)	[DEBUG]	This is a debug log.
+(November 26 2020, 1:48:04 pm)	[DEBUG]	[object Object]
+(November 26th 2020, 1:48:04 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 26 2020, 1:49:02 pm)	[DEBUG]	Testing
+(November 26th 2020, 1:49:02 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'

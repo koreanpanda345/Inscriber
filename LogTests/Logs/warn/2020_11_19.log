@@ -1,0 +1,10 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|WARN LOG FILE OF 2020-11-19T14:10:14-08:00|------------------------------------------------
+                                          -------------------------------------------
+(November 19th 2020, 2:10:14 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/warn'
+(November 19th 2020, 2:10:15 pm)	[WARN]	This is a warn log.
+(November 19th 2020, 2:10:15 pm)	[WARN]	[object Object]

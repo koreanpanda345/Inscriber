@@ -2,7 +2,7 @@
   "name": "@koreanpanda/inscriber",
   "version": "2.0.0",
   "description": "A Logger that can write logs, and print them, with full customization.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "pretest": "npm run format",
     "test": "jest --config jestconfig.json --coverage",

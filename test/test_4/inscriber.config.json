@@ -32,5 +32,6 @@
       "background": "yellow"
     }
   },
-  "time-pattern": "MMMM Do YYYY, h:mm:ss a"
+  "custom-logs": [],
+  "time-pattern": "MMMM DD YYYY, h:mm:ss a"
 }

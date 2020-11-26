@@ -1,0 +1,60 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|DEBUG LOG FILE OF 2020-11-21T14:06:05-08:00|------------------------------------------------
+                                          -------------------------------------------
+(November 21st 2020, 2:06:05 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 2:06:05 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 2:06:05 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 2:11:49 pm)	[DEBUG]	This is a debug log.Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 2:11:49 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 2:15:53 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 2:15:53 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 2:15:53 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 2:15:55 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:05:32 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:05:32 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:05:32 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:05:32 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:05:56 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:05:57 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:05:57 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:05:57 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:07:53 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:07:53 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:07:53 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:07:53 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:08:53 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:08:53 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:08:53 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:08:53 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:19:59 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:19:59 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:19:59 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:19:59 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:21:42 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:21:42 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:21:42 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:21:42 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:24:10 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:24:10 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:24:10 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:24:10 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:25:53 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:25:53 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:25:53 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:25:53 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:26:40 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:26:40 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:26:40 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:26:40 pm)	[DEBUG]	[object Object]
+(November 21st 2020, 3:29:14 pm)	[DEBUG]	Testing
+(November 21st 2020, 3:29:14 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21st 2020, 3:29:14 pm)	[DEBUG]	This is a debug log.
+(November 21st 2020, 3:29:14 pm)	[DEBUG]	[object Object]
+(November 21 2020, 4:21:00 pm)	[DEBUG]	Testing
+(November 21st 2020, 4:21:00 pm) => [C:\Users\korea\repos\JS\Inscriber\test\test_3\inscriber.test.ts]: This should write a file to './LogTests/Logs/debug'
+(November 21 2020, 4:21:00 pm)	[DEBUG]	This is a debug log.
+(November 21 2020, 4:21:00 pm)	[DEBUG]	[object Object]
