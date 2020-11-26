@@ -2,10 +2,11 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreanpanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is the Config file of Inscriber. This handles
  * loading, creating, and adding configurations to "inscriber.config.json".
+ * @since          :  11/21/2020
  *========================================================================**/
 
 import { existsSync, readFileSync, writeFileSync, readdirSync } from "fs";
@@ -13,7 +14,7 @@ import { Config } from "./global";
 import { InscriberSystem } from "./InscriberSystem";
 
 export class InscriberConfig {
-    private _test_cases = readdirSync("./test");
+    private _test_cases = ["test", "test_1", "test_2", "test_3", "test_4", "test_5", "test_6"];
     // SECTION DefaultConfig
     /**======================================================================
      *                              DEFAULT CONFIG
@@ -62,7 +63,8 @@ export class InscriberConfig {
                 background: "yellow",
             },
         },
-        "time-pattern": "MMMM Do YYYY, h:mm:ss a", // Time formatting.
+        "custom-logs": [],
+        "time-pattern": "MMMM DD YYYY, h:mm:ss a", // Time formatting.
     };
     // !SECTION
     /**=======================

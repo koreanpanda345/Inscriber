@@ -2,11 +2,11 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreanpanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is Inscriber. Inscriber is NPM Logging Package
  * that is fully customizable.
- * @since          :  11/15/2020
+ * @since          :  11/21/2020
  * @license
  * Copyright 2020 Cody Spratford. All Rights Reserved.
  *
@@ -18,6 +18,7 @@
  *    IMPORTS
  *========================**/
 import { ErrorClass, InfoClass, DebugClass, WarnClass } from "./classes/exports";
+import { LogMethod } from "./classes/Log";
 import { Config } from "./global";
 import { InscriberConfig } from "./InscriberConfig";
 /**======================
@@ -143,5 +144,9 @@ export class Inscriber {
             content,
             require.main?.filename == undefined ? "" : require.main?.filename,
         );
+    }
+
+    log(content: any, type: string): void {
+        new LogMethod(new InscriberConfig().loadConfig(), content, require.main?.filename ?? "", type);
     }
 }

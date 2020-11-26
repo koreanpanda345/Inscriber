@@ -2,10 +2,10 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreapanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is the Global file. This holds all Global Types.
- * @since          :  11/14/2020
+ * @since          :  11/21/2020
  *========================================================================**/
 
 // ANCHOR [id=config] Global Config File.
@@ -51,5 +51,17 @@ export type Config = {
             background: string; // DEFINE Background color
         };
     };
+    "custom-logs": CustomLogConfig[]; // DEFINE Custom Logs.
     "time-pattern": string; // DEFINE sets the time pattern for the logs.
+};
+
+export type CustomLogConfig = {
+    name: string;
+    aliases: string[];
+    pattern: string;
+    color: {
+        text: string;
+        background: string;
+    };
+    path: string;
 };

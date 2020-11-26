@@ -2,16 +2,18 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreanpanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is the Config Builder. This Class can be used
  * to make the config to be applied when creating the config file.
+ * @since          :  11/21/2020
  *========================================================================**/
 /**=======================
  *     IMPORT
  *========================**/
-import { Config } from "../global";
+import { Config, CustomLogConfig } from "../global";
 import { InscriberConfig } from "../InscriberConfig";
+import { CustomLogBuilder } from "./CustomLogBuilder";
 /**=======================
  *     END OF IMPORTS
  *========================**/
@@ -171,6 +173,12 @@ export class InscriberConfigBuilder {
         };
         return this;
     }
+
+    addCustomLog(logConfig: CustomLogConfig): InscriberConfigBuilder {
+        this.config["custom-logs"].push(logConfig);
+        return this;
+    }
+
     // !SECTION Log Paths
     // SECTION Build
     /**========================================================================

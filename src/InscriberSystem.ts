@@ -2,11 +2,12 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreanpanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is the System file. This is not for public use.
  * This is just for welcome message, and other stuff to inform the user about
  * something.
+ * @since          :  11/14/2020
  *========================================================================**/
 import chalk = require("chalk");
 

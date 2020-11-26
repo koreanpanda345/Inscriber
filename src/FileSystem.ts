@@ -2,11 +2,11 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreapanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is the File System. This handles all the Log File's
  * Methods
- * @since 11/15/2020
+ * @since          :  11/21/2020
  *========================================================================**/
 import { Config } from "./global";
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from "fs";
@@ -17,12 +17,20 @@ export class FileSystem {
     private _filename: string;
     private _content: string;
     private _config: Config;
-    private _type: "ERROR" | "DEBUG" | "INFO" | "WARN";
-    constructor(config: Config, filename: string, content: string, type: "ERROR" | "DEBUG" | "INFO" | "WARN") {
+    private _logType?: string;
+    private _type: "ERROR" | "DEBUG" | "INFO" | "WARN" | "LOG";
+    constructor(
+        config: Config,
+        filename: string,
+        content: string,
+        type: "ERROR" | "DEBUG" | "INFO" | "WARN" | "LOG",
+        logType?: string,
+    ) {
         this._filename = filename;
         this._content = content;
         this._config = config;
         this._type = type;
+        this._logType = logType;
     }
 
     private checkIfPathExist() {
@@ -38,6 +46,10 @@ export class FileSystem {
                 return false;
             case "WARN":
                 if (existsSync(`${this._config["log-paths"].warn}`)) return true;
+                return false;
+            case "LOG":
+                if (existsSync(`${this._config["custom-logs"].find((x) => x.name == this._logType)?.path}`))
+                    return true;
                 return false;
             default:
                 throw new TypeError(`${typeof this._type} is not a valid type.`);
@@ -58,6 +70,16 @@ export class FileSystem {
                     return false;
                 case "WARN":
                     if (existsSync(`${this._config["log-paths"].warn}/${this._filename}`)) return true;
+                    return false;
+                case "LOG":
+                    if (
+                        existsSync(
+                            `${this._config["custom-logs"].find((x) => x.name == this._logType)?.path}/${
+                                this._filename
+                            }`,
+                        )
+                    )
+                        return true;
                     return false;
                 default:
                     throw new TypeError(`${typeof this._type} is not a valid type.`);
@@ -102,6 +124,22 @@ export class FileSystem {
                     }
                     if (existsSync(`${this._config["log-paths"].warn}/${this._filename}`)) return true;
                     return false;
+                case "LOG":
+                    let _____path = "";
+                    for (let dir of this._config["custom-logs"].find((x) => x.name == this._logType)?.path.split("/") ??
+                        "") {
+                        _____path += dir;
+                        if (!existsSync(_____path)) mkdirSync(_____path);
+                        if (
+                            existsSync(
+                                `${this._config["custom-logs"].find((x) => x.name == this._logType)?.path}/${
+                                    this._filename
+                                }`,
+                            )
+                        )
+                            return true;
+                        return false;
+                    }
                 default:
                     throw new TypeError(`${typeof this._type} is not a valid type.`);
             }
@@ -138,6 +176,20 @@ export class FileSystem {
                     });
                     ___data += "\n" + this._content;
                     writeFileSync(`${this._config["log-paths"].warn}/${this._filename}`, ___data, { flag: "w" });
+                    break;
+                case "LOG":
+                    let ____data = readFileSync(
+                        `${this._config["custom-logs"].find((x) => x.name == this._logType)?.path}/${this._filename}`,
+                        {
+                            encoding: "utf-8",
+                        },
+                    );
+                    ____data += "\n" + this._content;
+                    writeFileSync(
+                        `${this._config["custom-logs"].find((x) => x.name == this._logType)?.path}/${this._filename}`,
+                        ____data,
+                        { flag: "w" },
+                    );
                     break;
             }
         } else {
@@ -183,6 +235,17 @@ export class FileSystem {
                         "\n                                          -------------------------------------------" +
                         `\n${this._content}`;
                     writeFileSync(`${this._config["log-paths"].warn}/${this._filename}`, ____message, {
+                        flag: "w",
+                    });
+                    break;
+                case "LOG":
+                    let _____message =
+                        new InscriberSystem().getAsciiName() +
+                        "                                          -------------------------------------------" +
+                        `\n-----------------------------------------|${this._logType?.toUpperCase()} LOG FILE OF ${moment().format()}|------------------------------------------------` +
+                        "\n                                          -------------------------------------------" +
+                        `\n${this._content}`;
+                    writeFileSync(`${this._config["log-paths"].warn}/${this._filename}`, _____message, {
                         flag: "w",
                     });
                     break;

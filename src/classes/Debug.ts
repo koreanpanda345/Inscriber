@@ -2,10 +2,11 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreanpanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is the Debug Class. This handles all debug type's
  * methods
+ * @since          :  11/15/2020
  *========================================================================**/
 
 import chalk = require("chalk");

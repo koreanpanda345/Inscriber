@@ -2,10 +2,11 @@
  * ?                                ABOUT
  * @author         :  Cody Spratford
  * @email          :  koreanpanda345@gmail.com
- * @repo           :
+ * @repo           :  https://github.com/koreanpanda345/Inscriber
  * @createdOn      :  11/14/2020
  * @description    :  This is the Info Class. This handles all the info type's
  * methods.
+ * @since          :  11/15/2020
  *========================================================================**/
 
 import chalk = require("chalk");
@@ -32,10 +33,23 @@ export class InfoClass implements ILog {
         }
         this.print(content.toString(), source, config);
     }
+    /**==============================================
+     *  @summary Writes to the warn logs to the log files.
+     *  @param content - The warn log
+     *  @param source - the source of the warn log.
+     *  @param filepath - the file location for the log.
+     *  @param config - The configuration of Inscriber.
+     *=============================================**/
     write(content: string, source: string, filepath: string, config: Config): void {
         let message = this.formatString(config, source, content);
         new FileSystem(config, `${moment().format("YYYY_MM_D")}.log`, message, "INFO").write();
     }
+    /**==============================================
+     *  @summary Prints the warn log to the console.
+     *  @param content - the warn log.
+     *  @param source - The source of the warn log.
+     *  @param config - the configuration of Inscriber.
+     *=============================================**/
     print(content: string, source: string, config: Config): void {
         let message = this.formatString(config, source, content);
 
