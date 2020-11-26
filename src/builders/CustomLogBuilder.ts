@@ -21,7 +21,7 @@ import { CustomLogConfig } from "../global";
  *      .setColor({text: "green"})
  *      .build();
  * ```
- *  
+ *
  *========================================================================**/
 export class CustomLogBuilder {
     private _config: CustomLogConfig;
@@ -35,54 +35,54 @@ export class CustomLogBuilder {
         };
     }
     /**==============================================
-     *                
+     *
      *  @param name - The name you would like the log to be called.
-     *  
+     *
      *=============================================**/
     setName(name: string): CustomLogBuilder {
         this._config.name = name;
         return this;
     }
     /**==============================================
-     *                
+     *
      *  @param aliases - The aliases to be used for this log.
-     *  
+     *
      *=============================================**/
     setAliases(aliases: string[] = []): CustomLogBuilder {
         this._config.aliases = aliases;
         return this;
     }
     /**==============================================
-     *                
+     *
      *  @param path - The path that the logs should be written to.
-     *  
+     *
      *=============================================**/
     setPath(path: string = `./Logs/${this._config.name}`): CustomLogBuilder {
         this._config.path = path;
         return this;
     }
     /**==============================================
-     *                
+     *
      *  @param pattern - The pattern that the log should use when writing logs.
-     *  
+     *
      *=============================================**/
     setPattern(pattern: string = "(<time>)\t[type]\t<message>"): CustomLogBuilder {
         this._config.pattern = pattern;
         return this;
     }
     /**==============================================
-     *                
+     *
      *  @param color - what colors should the log use when priting the log out.
-     * 
+     *
      *=============================================**/
-    setColor(color: { text: string; background: string } = {text: "white", background: "black"}): CustomLogBuilder {
+    setColor(color: { text: string; background: string } = { text: "white", background: "black" }): CustomLogBuilder {
         this._config.color = color;
         return this;
     }
     /**==============================================
-     *                
+     *
      *  Builds the Custom Log Config.
-     *  
+     *
      *=============================================**/
     build(): CustomLogConfig {
         return this._config;
