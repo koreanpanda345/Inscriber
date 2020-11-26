@@ -1,6 +1,6 @@
 {
   "name": "@koreanpanda/inscriber",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Logger that can write logs, and print them, with full customization.",
   "main": "lib/index.js",
   "scripts": {
