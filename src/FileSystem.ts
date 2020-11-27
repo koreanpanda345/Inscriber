@@ -129,7 +129,6 @@ export class FileSystem {
                     for (let dir of this._config["custom-logs"].find((x) => x.name == this._logType)?.path.split("/") ??
                         "./Logs/customs") {
 						_____path += dir;
-						console.log(_____path);
 						if (!existsSync(_____path)) mkdirSync(_____path);
 						_____path += "/";
 						}
