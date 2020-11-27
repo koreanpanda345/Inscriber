@@ -40,8 +40,8 @@ export class CustomLogBuilder {
      *
      *=============================================**/
     setName(name: string): CustomLogBuilder {
-		this._config.name = name;
-		this._config.path += "/" +name;
+        this._config.name = name;
+        this._config.path += "/" + name;
         return this;
     }
     /**==============================================
