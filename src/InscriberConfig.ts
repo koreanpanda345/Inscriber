@@ -133,7 +133,6 @@ export class InscriberConfig {
         writeFileSync(`${require.main?.path == undefined ? "./" : require.main.path}/inscriber.config.json`, json, {
             flag: "w",
         });
-        console.log("Overwritten the config.");
     }
     // !SECTION
 }

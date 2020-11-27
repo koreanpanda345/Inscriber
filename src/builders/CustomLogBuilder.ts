@@ -29,9 +29,9 @@ export class CustomLogBuilder {
         this._config = {
             name: "",
             aliases: [],
-            path: "",
-            color: { text: "", background: "" },
-            pattern: "",
+            path: `./Logs`,
+            color: { text: "white", background: "black" },
+            pattern: "(<time>)\t[<type>]\t<message>",
         };
     }
     /**==============================================
@@ -40,7 +40,8 @@ export class CustomLogBuilder {
      *
      *=============================================**/
     setName(name: string): CustomLogBuilder {
-        this._config.name = name;
+		this._config.name = name;
+		this._config.path += "/" +name;
         return this;
     }
     /**==============================================
@@ -66,7 +67,7 @@ export class CustomLogBuilder {
      *  @param pattern - The pattern that the log should use when writing logs.
      *
      *=============================================**/
-    setPattern(pattern: string = "(<time>)\t[type]\t<message>"): CustomLogBuilder {
+    setPattern(pattern: string = "(<time>)\t[<type>]\t<message>"): CustomLogBuilder {
         this._config.pattern = pattern;
         return this;
     }

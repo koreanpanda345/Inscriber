@@ -125,21 +125,24 @@ export class FileSystem {
                     if (existsSync(`${this._config["log-paths"].warn}/${this._filename}`)) return true;
                     return false;
                 case "LOG":
-                    let _____path = "";
+					let _____path = "";
                     for (let dir of this._config["custom-logs"].find((x) => x.name == this._logType)?.path.split("/") ??
-                        "") {
-                        _____path += dir;
-                        if (!existsSync(_____path)) mkdirSync(_____path);
+                        "./Logs/customs") {
+						_____path += dir;
+						console.log(_____path);
+						if (!existsSync(_____path)) mkdirSync(_____path);
+						_____path += "/";
+						}
                         if (
                             existsSync(
                                 `${this._config["custom-logs"].find((x) => x.name == this._logType)?.path}/${
                                     this._filename
-                                }`,
+                                }`
                             )
                         )
                             return true;
                         return false;
-                    }
+                    
                 default:
                     throw new TypeError(`${typeof this._type} is not a valid type.`);
             }
@@ -245,7 +248,7 @@ export class FileSystem {
                         `\n-----------------------------------------|${this._logType?.toUpperCase()} LOG FILE OF ${moment().format()}|------------------------------------------------` +
                         "\n                                          -------------------------------------------" +
                         `\n${this._content}`;
-                    writeFileSync(`${this._config["log-paths"].warn}/${this._filename}`, _____message, {
+                    writeFileSync(`${this._config["custom-logs"].find(x => x.name === this._logType)?.path}/${this._filename}`, _____message, {
                         flag: "w",
                     });
                     break;
